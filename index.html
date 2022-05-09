@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Zgadnij date urodzenia</title>
+</head>
+<body>
+
+    <h2>Czy to twoja data urodzin?</h2><br><br>
+
+<div id='dates'>
+  <div id='log-lower' class='log'></div>
+  <div><button class ='button-64' role="button" id='lower' onclick='lower()'><span class="text">Wcześniej</span></button></div>
+  <div id='date'>Data</div>
+  <div><button class ='button-64' role="button" id='higher' onclick='higher()'><span class="text">Później</span></button></div>
+  <div id='log-higher' class='log'></div>
+</div>
+
+<div id='count'>1 Próba</div>
+
+</body>
+<script src="script.js"></script>
+</html>
